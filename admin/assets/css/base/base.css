@@ -2,7 +2,7 @@
 @import url(_variaveis.css);
 
 body {
-	background-color: var(--cor-de-fundo);
+	background-color: var(--cor-azul-claro);
 	color: var(--cor-de-fonte);
 	font-family: var(--fonte-base);
 }

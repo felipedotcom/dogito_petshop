@@ -1,0 +1,48 @@
+.tabela {
+    margin-top: 2.25rem;
+
+    background-color: var(--cor-branca);
+    border-radius: 10px;
+    box-shadow: var(--sombra-elemento);
+}
+
+.tabela--espacamento {
+    padding-right: 1.75rem;
+    padding-left: 1.75rem;
+}
+
+.tabela__cabecalho {
+    font-size: var(--fonte-tabela-cabecalho);
+    display: flex;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    border-bottom: 1px solid var(--cor-azul-claro);
+    margin-bottom: 1rem;
+}
+
+.tabela__corpo {
+    padding-bottom: 1.75rem;
+}
+
+.tabela__entrada {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.tabela__entrada:last-of-type {
+    margin-bottom: 0;
+}
+
+.tabela__botoes-controle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tabela__coluna--pequena {
+    width: 25%;
+}
+
+.tabela__coluna--media {
+    width: 50%;
+}

@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./assets/css/base/base.css">
     <link rel="stylesheet" href="./assets/css/componentes/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/lista_cliente.css">
+    <link rel="stylesheet" href="./assets/css/componentes/tabela.css">
 </head>
 <body>
     <header class="cabecalho container">
@@ -23,18 +25,45 @@
     </header>
 
     <main class="clientes-container">
-        <ul class="tabela">
-            <li class="tabela__cabecalho">
-                <div class=""></div>
-                <div class=""></div>
-                <div class=""></div>
-            </li>
-            <li class="tabela__corpo">
-                <div class=""></div>
-                <div class=""></div>
-                <div class=""></div>
-            </li>
-        </ul>
+        <article class="tabela">
+            <div class="tabela__cabecalho tabela--espacamento">
+                <div class="tabela__coluna--pequena">CPF</div>
+                <div class="tabela__coluna--media">Nome</div>
+                <div class="tabela__coluna--pequena">Novo Cliente</div>
+            </div>
+            <ul class="tabela__corpo tabela--espacamento">
+                <li class="tabela__entrada">
+                    <div class="tabela__coluna--pequena">12345678911</div>
+                    <div class="tabela__coluna--media">Marcinho de Souza Otiz</div>
+                    <div class="tabela__coluna--pequena">
+                        <ul class="tabela__botoes-controle">
+                            <li><a href="#">Editar</a></li>
+                            <li><button>Excluir</button></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="tabela__entrada">
+                    <div class="tabela__coluna--pequena">12345678911</div>
+                    <div class="tabela__coluna--media">Marcinho de Souza Otiz</div>
+                    <div class="tabela__coluna--pequena">
+                        <ul class="tabela__botoes-controle">
+                            <li><a href="#">Editar</a></li>
+                            <li><button>Excluir</button></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="tabela__entrada">
+                    <div class="tabela__coluna--pequena">12345678911</div>
+                    <div class="tabela__coluna--media">Marcinho de Souza Otiz</div>
+                    <div class="tabela__coluna--pequena">
+                        <ul class="tabela__botoes-controle">
+                            <li><a href="#">Editar</a></li>
+                            <li><button>Excluir</button></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </article>
     </main>
 </body> 
 </html>

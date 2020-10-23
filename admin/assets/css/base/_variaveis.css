@@ -3,9 +3,11 @@
     --fonte-logo: 'Pacifico', cursive;
     --fonte-peso-leve: 300;
     --fonte-peso-regular: 400;
+    --fonte-tabela-cabecalho: 22px;
     
-    --cor-de-fundo: #d6eaff;
+    --cor-azul-claro: #d6eaff;
     --cor-de-fonte: #4D4D4D;
     --cor-branca: #fff;
 
+    --sombra-elemento: 0 5px 10px #55a6ff38;
 }

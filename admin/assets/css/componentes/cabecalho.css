@@ -2,7 +2,7 @@
 .cabecalho {
     background-color: var(--cor-branca);
     border-radius: 0 0 10px 10px;
-    box-shadow: 0 5px 10px #55a6ff38;
+    box-shadow: var(--sombra-elemento);
     display: flex;
     justify-content: space-between;
     align-items: center;
