@@ -1,1 +1,20 @@
 @import url(_reset.css);
+@import url(_variaveis.css);
+
+body {
+	background-color: var(--cor-de-fundo);
+	color: var(--cor-de-fonte);
+	font-family: var(--fonte-base);
+}
+
+.container { 
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+@media(min-width: 800px) {
+  .container {
+		padding-right: 2.5rem;
+		padding-left: 2.5rem;	
+	}
+}
