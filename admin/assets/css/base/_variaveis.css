@@ -6,8 +6,11 @@
     --fonte-tabela-cabecalho: 22px;
     
     --cor-azul-claro: #d6eaff;
+    --cor-azul: #55a6ff;
     --cor-de-fonte: #4D4D4D;
     --cor-branca: #fff;
+    --cor-vermelha: #ff7b7b;
+    --cor-verde: #46bb42;
 
     --sombra-elemento: 0 5px 10px #55a6ff38;
 }

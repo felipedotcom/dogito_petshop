@@ -1,0 +1,16 @@
+.botao--simples {
+    border: none;
+    background-color: unset;
+}
+
+.botao__texto--adicionar {
+    color: var(--cor-azul);
+}
+
+.botao__texto--excluir {
+    color: var(--cor-vermelha);
+}
+
+.botao__texto--editar {
+    color: var(--cor-verde);
+}
