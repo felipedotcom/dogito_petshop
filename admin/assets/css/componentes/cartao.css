@@ -5,6 +5,7 @@
     width: 100%;
     max-width: 45rem;
     padding: 1.75rem;
+    box-sizing: border-box;
 }
 
 .cartao__titulo {

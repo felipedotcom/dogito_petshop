@@ -1,21 +1,41 @@
 .input-container {
     font-weight: var(--fonte-peso-leve);
     position: relative;
+    height: 3.25rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .input {
     box-sizing: border-box;
     border-bottom: 1px solid var(--cor-azul-claro);
-    height: 3.25rem;
     padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
     padding-left: 0.5rem;
     width: 100%;
-    margin-bottom: 1rem;
 }
 
-.input-lable {
+.input::placeholder {
+    visibility: hidden;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input-label {
     position: absolute;
-    bottom: 1.5rem;
+    bottom: 0.5rem;
     left: 0.5rem;
     font-size: var(--fonte-input-label);
+
+    transition: all .25s;
+}
+
+.input:not(:placeholder-shown) + .input-label, .input:focus + .input-label {
+    font-size: 0.875rem;
+    bottom: 2.125rem;
+    transition: all .25s;
 }
