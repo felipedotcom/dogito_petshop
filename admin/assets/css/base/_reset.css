@@ -57,6 +57,8 @@ button {
 	color: inherit;
 	font-weight: inherit;
 	padding: 0;
+	border: none;
+	background-color: unset;
 }
 
 input {
