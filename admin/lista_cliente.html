@@ -26,57 +26,37 @@
     </header>
 
     <main class="clientes-container">
-        <article class="tabela">
-            <div class="tabela__cabecalho tabela--espacamento">
-                <div class="tabela__coluna--pequena">CPF</div>
-                <div class="tabela__coluna--media">Nome</div>
-                <div class="tabela__coluna--pequena">
-                    <a href="#" class="botao--simples botao__texto--adicionar">Novo Cliente</a>
-                </div>
-            </div>
-            <ul class="tabela__corpo tabela--espacamento">
-                <li class="tabela__entrada">
-                    <div class="tabela__coluna--pequena">12345678911</div>
-                    <div class="tabela__coluna--media">Marcinho de Souza Otiz</div>
-                    <div class="tabela__coluna--pequena">
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th class="tabela__coluna--p">CPF</th>
+                    <th class="tabela__coluna--g">Nome</th>
+                    <th class="tabela__coluna--m"><a href="#" class="botao--simples botao__texto--adicionar">Novo Cliente</a></th>
+                </tr>
+            </thead>
+            <tbody >
+                <tr>
+                    <td>123456789-11</td>
+                    <td>Marcinho de Souza Otiz</td>
+                    <td>
                         <ul class="tabela__botoes-controle">
                             <li><a href="#" class="botao--simples botao__texto--editar">Editar</a></li>
                             <li><button class="botao--simples botao__texto--excluir">Excluir</button></li>
                         </ul>
-                    </div>
-                </li>
-                <li class="tabela__entrada">
-                    <div class="tabela__coluna--pequena">12345678911</div>
-                    <div class="tabela__coluna--media">Marcinho de Souza Otiz</div>
-                    <div class="tabela__coluna--pequena">
+                    </td>
+                </tr>
+                <tr>
+                    <td>123456789-11</td>
+                    <td>Marcinho de Souza Otiz</td>
+                    <td>
                         <ul class="tabela__botoes-controle">
                             <li><a href="#" class="botao--simples botao__texto--editar">Editar</a></li>
                             <li><button class="botao--simples botao__texto--excluir">Excluir</button></li>
                         </ul>
-                    </div>
-                </li>
-                <li class="tabela__entrada">
-                    <div class="tabela__coluna--pequena">12345678911</div>
-                    <div class="tabela__coluna--media">Marcinho de Souza Otiz</div>
-                    <div class="tabela__coluna--pequena">
-                        <ul class="tabela__botoes-controle">
-                            <li><a href="#" class="botao--simples botao__texto--editar">Editar</a></li>
-                            <li><button class="botao--simples botao__texto--excluir">Excluir</button></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="tabela__entrada">
-                    <div class="tabela__coluna--pequena">12345678911</div>
-                    <div class="tabela__coluna--media">Marcinho de Souza Otiz</div>
-                    <div class="tabela__coluna--pequena">
-                        <ul class="tabela__botoes-controle">
-                            <li><a href="#" class="botao--simples botao__texto--editar">Editar</a></li>
-                            <li><button class="botao--simples botao__texto--excluir">Excluir</button></li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </article>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </main>
 </body> 
 </html>

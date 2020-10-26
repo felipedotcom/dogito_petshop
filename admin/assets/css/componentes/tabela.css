@@ -1,36 +1,55 @@
 .tabela {
     margin-top: 2.25rem;
 
+    width: 100%;
+
     background-color: var(--cor-branca);
     border-radius: 10px;
     box-shadow: var(--sombra-elemento);
+
+    border-collapse: initial;
+
+    text-align: left;
 }
 
-.tabela--espacamento {
-    padding-right: 1.75rem;
+.tabela td:first-of-type, .tabela th:first-of-type {
     padding-left: 1.75rem;
 }
 
-.tabela__cabecalho {
+.tabela td:last-of-type, .tabela th:last-of-type {
+    padding-right: 1.75rem;
+}
+
+.tabela thead {
     font-size: var(--fonte-tabela-cabecalho);
-    display: flex;
+}
+
+.tabela th {
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
     border-bottom: 1px solid var(--cor-azul-claro);
-    margin-bottom: 1rem;
+
 }
 
-.tabela__corpo {
+.tabela td {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.tabela__coluna--p {
+    width: 20%;
+}
+
+.tabela__coluna--m {
+    width: 25%;
+}
+
+.tabela__coluna--g {
+    width: 50%;
+}
+
+.tabela tr:last-of-type td {
     padding-bottom: 1.75rem;
-}
-
-.tabela__entrada {
-    display: flex;
-    margin-bottom: 2rem;
-}
-
-.tabela__entrada:last-of-type {
-    margin-bottom: 0;
 }
 
 .tabela__botoes-controle {
@@ -39,10 +58,3 @@
     justify-content: space-between;
 }
 
-.tabela__coluna--pequena {
-    width: 25%;
-}
-
-.tabela__coluna--media {
-    width: 50%;
-}
