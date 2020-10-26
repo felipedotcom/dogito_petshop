@@ -1,0 +1,21 @@
+.input-container {
+    font-weight: var(--fonte-peso-leve);
+    position: relative;
+}
+
+.input {
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--cor-azul-claro);
+    height: 3.25rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.input-lable {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0.5rem;
+    font-size: var(--fonte-input-label);
+}
