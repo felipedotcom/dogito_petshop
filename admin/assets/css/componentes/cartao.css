@@ -10,5 +10,5 @@
 
 .cartao__titulo {
     font-size: var(--fonte-cartao-titulo);
-    margin-bottom: 2.25rem;
+    margin-bottom: 1rem;
 }
