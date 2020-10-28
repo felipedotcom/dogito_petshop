@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./assets/css/cadastra_cliente.css">
     <link rel="stylesheet" href="./assets/css/componentes/inputs.css">
     <link rel="stylesheet" href="./assets/css/componentes/botao.css">
+    <link rel="stylesheet" href="./assets/css/cadastro_produto.css">
 </head>
 <body>
     <header class="cabecalho container">
@@ -34,17 +35,17 @@
                     <label class="input-label" for="nome">Nome</label>
                     <span class="input-mensagem-erro">Mensagem genérica de erro</span>
                 </div>
-                <div class="input-container">
+                <div class="input-container cadastro__preco-container">
                     <input name="preco" id="preco" class="input" type="text" placeholder="Preço">
                     <label class="input-label" for="preco">Preço</label>
                     <span class="input-mensagem-erro">Mensagem genérica de erro</span>
                 </div>
-                <div class="textarea-container textarea-container--invalido">
-                    <textarea class="textarea" name="descricao" id="descricao" placeholder="Descrição"></textarea>
+                <div class="textarea-container textarea-container--invalido cadastro__descricao-container">
+                    <textarea class="textarea cadastro__descricao" name="descricao" id="descricao" placeholder="Descrição"></textarea>
                     <label class="textarea-label" for="descricao">Descrição</label>
                     <span class="textarea-mensagem-erro">Mensagem genérica de erro</span>
                 </div>
-                <a href="./cadastro_concluido.html" class="botao">Cadastrar</a>
+                <a href="./cadastro_concluido.html" class="botao">Cadastrar produto</a>
             </form>
         </section>
     </main>
