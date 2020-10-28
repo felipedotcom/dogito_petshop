@@ -5,6 +5,7 @@ body {
 	background-color: var(--cor-secundaria);
 	color: var(--cor-contraste-escuro);
 	font-family: var(--fonte-familia-corpo);
+	overflow-x: hidden;
 }
 
 .container { 

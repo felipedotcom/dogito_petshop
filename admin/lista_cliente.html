@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/lista_cliente.css">
     <link rel="stylesheet" href="./assets/css/componentes/tabela.css">
     <link rel="stylesheet" href="./assets/css/componentes/botao.css">
+    <link rel="stylesheet" href="./assets/css/componentes/modal.css">
 </head>
 <body>
     <header class="cabecalho container">
@@ -57,6 +58,19 @@
                 </tr>
             </tbody>
         </table>
+        <div class="modal-container modal--fechado">
+            <article class="modal">
+                <h2 class="modal__titulo">
+                    Excluir
+                </h2>
+                <button class="modal__fechar">X</button>
+                <p class="modal__texto">Deseja excluir essa entrada?</p>
+                <div class="modal__botao-container">
+                    <button class="modal__botao modal__botao--confirmar">Excluir</button>
+                    <button class="modal__botao">Não excluir</button>
+                </div>
+            </article>
+        </div>
     </main>
 </body> 
 </html>
