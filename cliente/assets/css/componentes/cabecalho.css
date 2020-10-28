@@ -1,8 +1,8 @@
 
 .cabecalho {
-    background-color: var(--cor-branca);
+    background-color: var(--cor-contraste-claro);
     border-radius: 0 0 10px 10px;
-    box-shadow: var(--sombra-elemento);
+    box-shadow: var(--sombra);
     display: flex;
     justify-content: space-between;
     align-items: center;
