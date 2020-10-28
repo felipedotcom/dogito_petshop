@@ -1,4 +1,5 @@
 .botao {
+    display: block;
     background-color: var(--cor-primaria);
     border-radius: 7px;
     width: 100%;
@@ -9,6 +10,7 @@
     color: var(--cor-contraste-claro);
     font-size: var(--fonte-tamanho-botao);
     align-self: center;
+    text-align: center;
 }
 
 .botao-simples {
