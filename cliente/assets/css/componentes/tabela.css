@@ -28,12 +28,15 @@
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
     border-bottom: 1px solid var(--cor-secundaria);
-
 }
 
 .tabela td {
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+.tabela__alinhamento--direita {
+    text-align: right;
 }
 
 .tabela__coluna--p {
@@ -55,6 +58,9 @@
 .tabela__botoes-controle {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
+.tabela__botoes-controle li:first-of-type {
+    margin-right: 2.25rem;
+}
