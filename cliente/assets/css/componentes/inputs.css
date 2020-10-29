@@ -28,6 +28,7 @@
 
 .input::placeholder {
     visibility: hidden;
+    color: #00000000;
 }
 
 .input:focus {

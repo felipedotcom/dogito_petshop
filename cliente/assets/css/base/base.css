@@ -31,3 +31,10 @@ body {
 		padding-left: 2.5rem;	
 	}
 }
+
+@media(min-width: 1200px) {
+	.container {
+		padding-left: calc((100vw - 900px)/2);
+		padding-right: calc((100vw - 900px)/2);
+	}
+}
