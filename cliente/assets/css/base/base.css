@@ -25,6 +25,16 @@ body {
 	flex-direction: column;
 }
 
+.titulo-pagina {
+	display: flex;
+	align-items: center;
+	font-size: var(--fonte-tamanho-titulo-pagina);
+	background-color: var(--cor-contraste-claro);
+    border-radius: 0 0 10px 10px;
+	box-shadow: var(--sombra);
+	height: 4.75rem;
+}
+
 @media(min-width: 800px) {
   .container {
 		padding-right: 2.5rem;
