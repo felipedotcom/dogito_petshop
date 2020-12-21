@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./assets/css/base/base.css">
     <link rel="stylesheet" href="./assets/css/componentes/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/blog.css">
     <link rel="stylesheet" href="./assets/css/componentes/cartao.css">
 </head>
 <body>
@@ -17,9 +18,22 @@
             <img src="./assets/img/doguito.svg" alt="Logo Doguito" class="cabecalho__logo">
             <h1 class="cabecalho__titulo">PetShop</h1>
         </div>
+        <nav class="menu-cabecalho menu">
+            <span class="menu-cabecalho__fechar"></span>
+            <ul class="menu-itens">
+                <li><a href="#" class="menu-item menu-item--entrar">Entrar</a></li>
+                <li><a href="#" class="menu-item">Produtos</a></li>
+                <li><a href="#" class="menu-item">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="menu-cabecalho-background"></div>
     </header>
     <main>
         <h2 class="titulo-pagina container"> Pet notícias</h2>
+        <ul class="lista-categorias container flex">
+            <li class="lista-categorias__categoria lista-categorias__categoria--bemestar">Bem-estar</li>
+            <li class="lista-categorias__categoria lista-categorias__categoria--comportamento">Comportamento</li>
+        </ul>
         <section class="posts container">
             <article class="cartao-post cartao-post--bemestar">
                 <h3 class="cartao-post__titulo">Título do post</h3>
@@ -39,5 +53,6 @@
             </article>
         </section>
     </main>
+    <script src="./js/menu-lateral.js"></script>
 </body>
 </html>

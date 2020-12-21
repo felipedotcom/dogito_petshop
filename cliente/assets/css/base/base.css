@@ -34,7 +34,7 @@ body {
     border-radius: 0 0 10px 10px;
 	box-shadow: var(--sombra);
 	height: 4.75rem;
-	margin-bottom: 3.125rem;
+	margin-bottom: 2rem;
 }
 
 @media(min-width: 800px) {

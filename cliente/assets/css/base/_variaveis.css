@@ -5,15 +5,18 @@
     --fonte-peso-input: 300;
     --fonte-peso-titulo-pagina: 500;
     --fonte-peso-cartao: 500;
+    --fonte-peso-categorias: 500;
+    --fonte-peso-menu-cabecalho-item: 500;
 
-    --fonte-tamanho-logo: 28px;
-    --fonte-tamanho-cartao-titulo: 28px;
-    --fonte-tamanho-cartao-post-titulo: 22px;
-    --fonte-tamanho-input-label: 20px;
-    --fonte-tamanho-botao: 22px;
-    --fonte-tamanho-formulario-fieldset: 22px;
-    --fonte-tamanho-tabela-cabecalho: 22px;
-    --fonte-tamanho-titulo-pagina: 28px;
+    --fonte-tamanho-logo: 1.75rem;
+    --fonte-tamanho-cartao-titulo: 1.75rem;
+    --fonte-tamanho-cartao-post-titulo: 1.375rem;
+    --fonte-tamanho-input-label: 1.25rem;
+    --fonte-tamanho-botao: 1.375rem;
+    --fonte-tamanho-formulario-fieldset: 1.375rem;
+    --fonte-tamanho-tabela-cabecalho: 1.375rem;
+    --fonte-tamanho-titulo-pagina: 1.75rem;
+    --fonte-tamanho-menu-cabecalho-item: 1.2rem;
     
     --cor-primaria: #0071ea;
     --cor-secundaria: #d6eaff;
@@ -23,8 +26,8 @@
     --cor-aviso: #df2525;
     --cor-sucesso: #46bb42;
 
-    --cor-categoria-bemestar: #ff6666;
-    --cor-categoria-comportamento: #4093ff;
+    --cor-categoria-bemestar: #ff4949;
+    --cor-categoria-comportamento: #368dff;
 
     --sombra: 0 5px 10px #55a6ff38;
 }
