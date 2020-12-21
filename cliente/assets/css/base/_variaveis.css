@@ -3,9 +3,12 @@
     --fonte-familia-logo: 'Pacifico', cursive;
 
     --fonte-peso-input: 300;
+    --fonte-peso-titulo-pagina: 500;
+    --fonte-peso-cartao: 500;
 
     --fonte-tamanho-logo: 28px;
     --fonte-tamanho-cartao-titulo: 28px;
+    --fonte-tamanho-cartao-post-titulo: 22px;
     --fonte-tamanho-input-label: 20px;
     --fonte-tamanho-botao: 22px;
     --fonte-tamanho-formulario-fieldset: 22px;
@@ -16,8 +19,12 @@
     --cor-secundaria: #d6eaff;
     --cor-contraste-escuro: #4D4D4D;
     --cor-contraste-claro: #fff;
+    --cor-divisao: #dadada;
     --cor-aviso: #df2525;
     --cor-sucesso: #46bb42;
+
+    --cor-categoria-bemestar: #ff6666;
+    --cor-categoria-comportamento: #4093ff;
 
     --sombra: 0 5px 10px #55a6ff38;
 }

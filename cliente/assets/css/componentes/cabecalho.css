@@ -12,7 +12,7 @@
 .cabecalho--alternativo {
     border-radius: unset;
     box-shadow: unset;
-    border-bottom: 1px solid var(--cor-primaria);
+    border-bottom: 1px solid var(--cor-divisao);
 }
 
 .menu-hamburguer {
