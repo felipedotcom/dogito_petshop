@@ -1,9 +1,9 @@
 :root {
     --fonte-familia-corpo: 'Montserrat', sans-serif;
     --fonte-familia-logo: 'Pacifico', cursive;
+    --fonte-familia-titulo-pagina: 'Pacifico', cursive;
 
     --fonte-peso-input: 300;
-    --fonte-peso-titulo-pagina: 500;
     --fonte-peso-cartao: 500;
     --fonte-peso-categorias: 500;
     --fonte-peso-menu-cabecalho-item: 500;
@@ -34,6 +34,7 @@
 
 @media(min-width: 800px) {
     :root {
-        --fonte-tamanho-logo: 56px;
+        --fonte-tamanho-logo: 2.5rem;
+        --fonte-tamanho-menu-cabecalho-item: 1rem;
     }
 }

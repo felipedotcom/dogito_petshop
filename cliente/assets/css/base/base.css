@@ -28,13 +28,15 @@ body {
 .titulo-pagina {
 	display: flex;
 	align-items: center;
+	font-family: var(--fonte-familia-titulo-pagina);
 	font-size: var(--fonte-tamanho-titulo-pagina);
-	font-weight: var(--fonte-peso-titulo-pagina);
 	background-color: var(--cor-contraste-claro);
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px;
 	box-shadow: var(--sombra);
 	height: 4.75rem;
+	margin-top: 1.25rem;
 	margin-bottom: 2rem;
+	padding-left: 2rem;
 }
 
 @media(min-width: 800px) {

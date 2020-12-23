@@ -19,6 +19,7 @@
     border-radius: 10px;
     box-shadow: var(--sombra);
     width: 100%;
+    max-width: 25rem;
     padding: 1rem 2rem 2rem;
     box-sizing: border-box;
     margin-bottom: 2.25rem;
